@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Max</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="piza.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="piza.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="piza.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Dancing+Script:wght@400..700&family=Geist:wght@100..900&family=Outfit:wght@100..900&family=Pacifico&family=Passion+One:wght@400;700;900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+   <div class="nav">
+<div class="logo">
+    <img class="animate__animated animate__tada" src="logo.png">
+</div>
+<div class="div2">
+    <div class="addmain">
+        <i class="fa-solid fa-location-dot"></i>
+    </div>
+    <div class="div2child"><h1>Pick-up from <i class="fa-solid fa-caret-down"></i></h1>
+        <p>waterpump f.b area,karachi </p></div>
+
+</div>
+<div class="div3">
+    <div class="icon2">
+        <i class="fa-solid fa-circle-user"></i>
+    </div>
+    <div class="icon3"><i class="fa-solid fa-suitcase-rolling  animate__animated animate__bounce"></i></div>
+    <button class="sign animate__animated animate__lightSpeedInRight">sign in / register</button>
+</div>
+   </div> 
+   
+   <div class="slider">
+    <div class="slider-container">
+        <div class="slides">
+            <img src="img1.jpg" alt="Image 1">
+            <img src="img2.jpg" alt="Image 2">
+            <img src="img3.jpg" alt="Image 3">
+            <img src="img4.jpg" alt="Image 4">
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+   </div>
+   <div class="main1">
+<button class="m1btn1"><a href="#arrival">desert</a></button>
+<button class="m1btn2"><a href="#promo">promo deals</a></button>
+<button class="m1btn3"><a href="#max">max value deals</a></button>
+<button class="m1btn4"><a href="#2b2b">2b2b deals</a></button>
+<button class="m1btn5"><a href="#royal">royal crown pizza</a></button>
+<button class="m1btn6"><a href="#midnight">midnight deals</a></button>
+<button class="m1btn7"><a href="#appe">appetizers</a></button>
+<i class="fa-solid fa-chevron-right"></i>
+   </div>
+   <div class="main2">
+    <div class="main2child">
+        <div class="searchicon">  <i class="fa-solid fa-magnifying-glass"></i> </div>
+        <input type="text" placeholder="">
+    </div>
+   </div>
+   <div class="main3" id="arrival">
+    <div  class="deserth ">
+        <h1>desert</h1>
+    </div>
+    <div class="desertbox">
+        <div class="imgbox"><img src="lava-cake.jpeg"></div>
+        <div class="text">
+            <h2>chocolate lava cake</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut accusantium iusto m </p>
+        <button class="rs">rs.350.00</button>
+        <div class="cart">
+            <button class="addcart">add to cart</button>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+        </div>
+    </div>
+   </div>
+   <div class="main4" id="promo">
+    <div class="deserth">
+        <h1>promo deals</h1>
+    </div>
+    <div class="main4child">
+        <div class="desertbox">
+            <div class="imgbox"><img src="promo1.jpg"></div>
+            <div class="text">
+                <h2>promo medium</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut accusantium iusto m </p>
+            <button class="rs">rs.795.00 <span style="text-decoration: line-through;">Rs. 1500.00</span></button>
+            <div class="cart">
+                <button class="addcart">add to cart</button>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            </div>
+        </div>
+        <div class="desertbox">
+            <div class="imgbox"><img src="promo2.jpg"></div>
+            <div class="text">
+                <h2>Promo Lasagne </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut accusantium iusto m </p>
+            <button class="rs">rs.775.00 <span style="text-decoration: line-through;">Rs. 970.00</span></button>
+            <div class="cart">
+                <button class="addcart">add to cart</button>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            </div>
+        </div>
+
+       </div>
+    </div>
+   </div>
+   <div class="main5" id="max">
+    <div class="deserth">
+        <h1>max value deals</h1>
+        </div>
+        <div class="main5child">
+            <div class="maxbox"><div class="maximg"><img src="max1.jpg"></div>
+    <div class="maxtext">
+        <h2>max deal 1</h2>
+        <p>p.pan pizza (6 flavours) </p>
+        <button class="maxrs">rs.450.00 </button>
+        <div class="maxcart">
+            <button class="addcart">add to cart</button>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+    </div>    
+    </div>
+            <div class="maxbox"><div class="maximg"><img src="max2.jpg"></div>
+    <div class="maxtext">
+        <h2>max deal 2</h2>
+        <p>p.pan pizza & soft drink 345ml</p>
+        <button class="maxrs">rs.595.00 </button>
+        <div class="maxcart">
+            <button class="addcart">add to cart</button>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+    </div>    
+    </div>
+            <div class="maxbox"><div class="maximg"><img src="max3.jpg"></div>
+    <div class="maxtext">
+        <h2>max deal 3</h2>
+        <p>medium pizza & 2 soft-drinks 345ml</p>
+        <button class="maxrs">rs.1,195.00 </button>
+        <div class="maxcart">
+            <button class="addcart">add to cart</button>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+    </div>    
+    </div>
+            <div class="maxbox"><div class="maximg"><img src="max4.jpg"></div>
+    <div class="maxtext">
+        <h2>max deal 4</h2>
+        <p>large pizza & 1 litre soft-drink</p>
+        <button class="maxrs">rs.1,595.00 </button>
+        <div class="maxcart">
+            <button class="addcart">add to cart</button>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+    </div>    
+    </div>
+            <div class="maxbox"><div class="maximg"><img src="max5.jpg"></div>
+    <div class="maxtext">
+        <h2>max deal 5</h2>
+        <p>Extra large pizza & 1 litre soft-drink</p>
+        <button class="maxrs">rs.1,950.00 </button>
+        <div class="maxcart">
+            <button class="addcart">add to cart</button>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+    </div>    
+    </div>
+            <div class="maxbox"><div class="maximg"><img src="max6.jpg"></div>
+    <div class="maxtext">
+        <h2>max deal 6</h2>
+        <p>party size pizza & 1.5 litre soft-drink</p>
+        <button class="maxrs">rs.2,495.00 </button>
+        <div class="maxcart">
+            <button class="addcart">add to cart</button>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+    </div>    
+    </div>
+        </div>
+    </div>
+    <div class="main6">
+        <div class="m6h">
+            <h1>PIZZA</h1>
+        </div>
+    </div>
+    <div class="main7">
+<div class="m7box">
+    <div class="m7img">
+        <img src="m7img1.webp">
+    </div>
+    <h1>TIE DYE PIE</h1>
+    <p>Mozzarella, Voodoo Sauce,<br> Tomato, Sauce, Pesto &<br> Grana Padano</p>
+    <span> from Rs. 1970 </span>
+    <div class="m7btn">
+        <button>Add to cart</button>
+    </div>
+</div>
+
+
+
+<div class="m7box"><div class="m7img">
+    <img src="m7img2.webp">
+</div>
+<h1>VOODOO CHILD</h1>
+<p>Mozzarella, Voodoo Sauce,<br> Tomato, Sauce, Pesto &<br> Grana Padano</p>
+<span> from Rs. 1960 </span>
+<div class="m7btn">
+    <button>Add to cart</button>
+</div></div>
+<div class="m7box"><div class="m7img">
+    <img src="m7img3.webp">
+</div>
+<h1>HOT CHICK</h1>
+<p>Mozzarella, Voodoo Sauce,<br> Tomato, Sauce, Pesto &<br> Grana Padano</p>
+<span> from Rs. 1840 </span>
+<div class="m7btn">
+    <button>Add to cart</button>
+</div></div>
+<div class="m7box"><div class="m7img">
+    <img src="m7img4.webp">
+</div>
+<h1>SAN GENNARO</h1>
+<p>Chicken Sausage, Roasted<br> Red Peppers, Bell Peppers &<br> Red Onions</p>
+<span> from Rs. 1960 </span>
+<div class="m7btn">
+    <button>Add to cart</button>
+</div></div>
+    </div>
+
+
+
+    <!-- //----------------footer--------------// -->
+     
+    <div class="footer">
+        <div class="box1">
+            <div class="imgboxp">
+               <div class="imgp">
+                <img src= "footerimg.png">
+               </div>
+            </div>
+            <div class="ftext">
+                <h3>
+                    Pizza Max
+                    </h3>
+                <p><span>Phone:</span> 051111629111</p>
+                <p><span>Email:</span> care@pizzamax.com.pk</p>
+                <p><span>Address:</span> Pizza Max - Bahria Town, 68 High Street Box Park, Food court, Bahria Springs, opposite Green Valley Premium Hyper Market, Bahria Town Phase 7, Rawalpindi, Rawalpindi</p>
+                <div class="imgg">
+                    <div class="img1"><img src="playstore.svg"></div>
+                    <div class="img1"><img src="appstore.svg"></div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="box2">
+            <h3>our timings</h3>
+          <div class="time">
+            <p>monday - sunday</p>
+            <span> 11:00 am - 4:00 am</span>
+          </div>
+          <span>follow us:</span>
+          <div class="follow">
+            <div class="img3"><img src="facebook.png"></div>
+            <div class="img3"><img src="instagram.png"></div>
+          </div>
+          <p><a href="#">privacy policy</a>  <a href="#">terme of use</a> <a href="#">faqs</a><br><a href="#">sitemap</a></p>
+        </div>
+      
+     </div>
+     <div class="hr">
+        <p>© 2025 Powered by Blink Co.</p>
+     </div>
+   
+<!-- //---------------Java script-----------------// -->
+   <script>
+    let slideIndex = 0;
+    const slides = document.querySelector('.slides');
+    const totalSlides = document.querySelectorAll('.slides img').length;
+
+    function moveSlide(step) {
+        slideIndex += step;
+        if (slideIndex >= totalSlides) slideIndex = 0;
+        if (slideIndex < 0) slideIndex = totalSlides - 1;
+        slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+    }
+
+    setInterval(() => moveSlide(1), 3000);
+</script>
+</body>
+</html>
