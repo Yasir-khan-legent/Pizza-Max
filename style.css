@@ -449,6 +449,7 @@ margin-top: 5px;
    gap: 8px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* 4-Sided Shadow */
     /* box-shadow: 8px 7px 7px rgba(0, 0, 0, 0.2); Light Shadow */
+    
 }
 .imgbox{
     width: 65%;
